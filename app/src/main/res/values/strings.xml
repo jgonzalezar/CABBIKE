@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CABBIKE</string>
+    <string name="Text_view1">REGISTRATE EN CABBIKE</string>
+    <string name="campo_nombre">Nombre Completo</string>
+    <string name="campo_email">Email</string>
+    <string name="campo_cel">Celular...+57...</string>
+    <string name="campo_clave">Ingrese una contraseña</string>
+    <string name="Button">REGISTRARME</string>
+    <string name="Button2">BUSCAR</string>
+    <string name="Button3">Regresar</string>
+    <string name="campo_ubicacion">Ingrese ubicación de recogida</string>
+    <string name="title_activity_pantalla1">Map</string>
+</resources>
