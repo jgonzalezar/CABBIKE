@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">CABBIKE</string>
+    <string name="map_key" translatable="false">AIzaSyBiE6fpwRPw0e2z2UDmxuGPjNxeSTJZcXo</string>
     <string name="Text_view1">REGISTRATE EN CABBIKE</string>
     <string name="campo_nombre">Nombre Completo</string>
     <string name="campo_email">Email</string>
@@ -10,4 +11,8 @@
     <string name="Button3">Regresar</string>
     <string name="campo_ubicacion">Ingrese ubicación de recogida</string>
     <string name="title_activity_pantalla1">Map</string>
+    <string name="title_activity_pantalla_2v2">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map">MAPActivity</string>
+    <string name="title_activity_map_">MAP_Activity</string>
 </resources>

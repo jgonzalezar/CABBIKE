@@ -5,19 +5,22 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-public class AdminSQLiteHelper extends SQLiteOpenHelper {
+    public class AdminSQLiteHelper extends SQLiteOpenHelper {
 
-    public AdminSQLiteHelper(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
-    }
+        public static final int DATABASE_VERSION = 1;
+        public static final String DATABASE_NAME = "BaseDeDatosCabbike.db";
 
-    @Override
-    public void onCreate(SQLiteDatabase BaseDeDatosCabbike) {
-        BaseDeDatosCabbike.execSQL("create table usuarios(contraseña text primary key, nombre_usuario text, email text, celular text)");
-    }
+        public AdminSQLiteHelper(Context context) {
+            super(context, DATABASE_NAME, null, DATABASE_VERSION);
+        }
 
-    @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        @Override
+        public void onCreate(SQLiteDatabase db) {
+            db.execSQL("create table usuarios(contraseña text primary key, nombre_usuario text, email text, celular text)");
+        }
 
-    }
+        @Override
+        public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+        }
 }
