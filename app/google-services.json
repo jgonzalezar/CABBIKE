@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "382918420758",
+    "firebase_url": "https://cabbike-20.firebaseio.com",
+    "project_id": "cabbike-20",
+    "storage_bucket": "cabbike-20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382918420758:android:d0bedec2bb72b1e0f0c837",
+        "android_client_info": {
+          "package_name": "com.example.cabbike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382918420758-fm2fcjiqg586lkhjksh6fk8ipk4bbin4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cabbike",
+            "certificate_hash": "92f718da1e9e5384c9b31795d9e8613beb7f560f"
+          }
+        },
+        {
+          "client_id": "382918420758-9bjqjr114hsanjho19buf3o1shj5tukt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0gBPkv5y47QRCzpoCGWJVFAPJrlPW9-U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382918420758-9bjqjr114hsanjho19buf3o1shj5tukt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
